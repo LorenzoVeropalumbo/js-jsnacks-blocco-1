@@ -1,5 +1,5 @@
 // creazione array
-let oddArray = [];
+let array = [];
 
 for (let i = 0; i < 6; i++) {
   
@@ -9,8 +9,6 @@ for (let i = 0; i < 6; i++) {
   if(userNumber % 2 == 1){
     array.push(userNumber);
   }
-
-  console.log(oddArray);
 }
 
-console.log(oddArray);
+console.log(array);
